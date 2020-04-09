@@ -6,6 +6,8 @@ function result = calculate(a, b, operation)
             result = subtract(a, b);
         case 'multiple'
             result = multiply(a, b);
+        case 'division'
+            result = division(a, b);
         otherwise
             disp('invalid function name');
     end
